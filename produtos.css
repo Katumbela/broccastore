@@ -1,0 +1,521 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.logo-text{
+    color: aliceblue;
+}
+
+.sidenav{
+    background: brown;
+}
+
+.sidenav li a{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+.mideas-sociais li{
+    display: inline;
+    margin: 2%;
+    text-align: right;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+nav{
+    background: brown;
+    position: fixed!important;
+    z-index: 1000;
+}
+
+
+footer{
+    background: brown;
+}
+
+
+.titulo3, .titulo2{
+    color: brown;
+}
+
+
+.page-footer{
+    background: brown;
+}
+
+.logo-text{
+    color: rgb(119, 3, 3);
+}
+
+.pdesc{
+    background: rgb(255, 255, 255);
+    color: brown;
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 3%;
+    border: 1px solid rgb(255, 211, 211);
+}
+
+.botao:focus{
+    background: none;
+    color: brown;
+}
+
+.botao{
+    background: brown;
+    color: white;
+    margin-left: 5%;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid brown;
+}
+
+.linha{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+
+.banner{
+    background-image: url(img/banner.jpg);
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 23rem;
+    width: 100%;
+}
+
+
+
+@media only screen and (min-width:900px) {
+        .banner{
+            display: none;
+        }    
+        
+.logo-text{
+    color: aliceblue;
+}
+}
+
+
+.title .span{
+    margin-top: -1px;
+}
+
+
+.cores{
+    display: flex;
+    margin-top: 7%;
+}
+.cor1{
+    height: 1rem;
+    border-radius: 50%;
+    width: 1rem;
+    margin-left: 36%;
+    background: rgb(40, 126, 255);
+    border: 1px solid #000;
+
+}
+
+.cor2{
+    height: 1rem;
+    border-radius: 50%;
+    width: 1rem;
+    margin-left: 3px;
+    background: rgb(151, 151, 158);
+    border: 1px solid #000;
+
+}
+
+.destaque{
+    border-bottom: 2px solid #000;
+    margin-bottom: 1rem;
+}
+
+.cor3{
+    height: 1rem;
+    border-radius: 50%;
+    width: 1rem;
+    margin-left: 3px;
+    background: rgb(249, 251, 253);
+    border: 1px solid #000;
+
+}
+
+ 
+.iframe2{
+    margin-left: 5%;
+}
+
+.botao-isnc{
+    border-radius: 20px;
+    margin-right: 2%;
+    background: orangered;
+    float: right;
+}
+
+.divisor{
+    display: none;
+}
+
+.pimage{
+    height: 387px;
+}
+
+@media screen and (max-width:900px) {
+    
+    .iframe2{
+        margin-left: 0;
+        margin-top: 8%;
+        margin-bottom: 3%;
+    }
+
+    .logo-text{
+        color: aliceblue;
+    }
+    
+    .titulo-card{
+        font-size: 20px;
+    }
+
+    .titulo-card1{
+        font-size: 17px;
+    }
+
+
+.divisor{
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+    
+    
+.title1{
+    margin-left: 1%;
+}
+
+
+.logo-text{
+    color: rgb(117, 191, 255);
+}
+    
+    }
+    @media screen and (min-width:901px) and (max-width:1250px) {
+        
+.logo-text{
+    color: aliceblue;
+}
+    
+    }
+
+
+    
+    @media screen and (min-width:100px) and (max-width:600px) {
+      
+
+        .arobot-modal{
+            margin-top: -15rem;
+        }
+
+
+        .logo-text{
+            color: aquamarine;
+        }
+
+        
+.divisor{
+    display: block;
+}
+
+
+        .titulo{
+            font-size: 30px;
+        }
+        
+        }
+
+
+        
+.produtos{
+    border: none;
+    padding: 1%;
+    width: 90%;
+}
+
+.linha{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+.produtos .produto .imagem{
+    height: 12rem;
+    width: 8rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.produtos .produto imagem2{
+    height: 12rem;
+    width: 12rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+
+.produtos .produto:first-child{
+    
+    margin-left: 100%;
+}
+
+.produtos .bordas{
+    width: 16rem;
+    overflow-x:initial;
+    cursor: pointer;
+    height: 16rem;
+    z-index: 10000;
+    z-index: 100;
+    transition: .3s;
+    margin-left: 5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #b30101;
+    padding-bottom: 1%;
+}
+
+.produto .bordas:hover .imagem {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+
+
+
+
+.produto .bordas:hover {
+    background: linear-gradient(220deg, white, white, white, white,white, rgba(209, 13, 13, 0.863));
+    transition: .6s;
+}
+
+
+.produto .bordas:hover .ext {
+    display: block;
+    transition: .5s;
+    color: rgb(66, 13, 13);
+}
+
+
+.produtos .produto .title h5{
+   
+    font-weight: bold;
+    margin-bottom: -1%;
+    margin-top:1%;
+    
+}
+
+.produtos .produto .quantidade{
+    width: 25%;
+    margin-left: 40%;
+}
+
+
+.produtos .produto .quantidade .quanti{
+    text-align: center;   
+    height: 1.5rem;
+
+}
+
+
+.title .span{
+    margin-top: -10px;
+}
+
+
+.cores{
+    display: flex;
+    margin-top: 7%;
+}
+.cor1{
+    height: 1rem;
+    border-radius: 50%;
+    width: 1rem;
+    margin-left: 36%;
+    background: rgb(40, 126, 255);
+    border: 1px solid #000;
+
+}
+
+.cor2{
+    height: 1rem;
+    border-radius: 50%;
+    width: 1rem;
+    margin-left: 3px;
+    background: rgb(151, 151, 158);
+    border: 1px solid #000;
+
+}
+
+
+.cor3{
+    height: 1rem;
+    border-radius: 50%;
+    width: 1rem;
+    margin-left: 3px;
+    background: rgb(249, 251, 253);
+    border: 1px solid #000;
+
+}
+
+.produtos .produto button{
+    z-index: 10000;
+    width: 8rem;
+    margin-left: .08rem;
+    transition: .5s;
+    height: 4rem;
+}
+
+.preco{
+    color: rgb(3, 104, 42);
+    font-size: 20px;
+    margin-right: -1rem;
+}
+
+.button{
+    width: 16rem;
+    margin-top: 1rem;
+
+}
+
+
+.stars svg{
+    height: 1rem;
+    align-items: flex-start;
+    align-content: flex-start;
+    text-align: left;
+    width: 1rem;
+}
+
+.comprar:focus{
+    background: none;
+    color: red;
+}
+
+.comprar{
+    background: rgb(245, 64, 51);
+    color: aliceblue;
+    border: 1px solid red;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .2s;
+}
+
+.btn:focus{
+    background: none;
+}
+
+.btn:hover{
+    
+    background:#013d70;
+}
+
+.insc{
+    background:#013d70;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.insc:hover{
+    background: none;
+    border: 2px solid #013d70;
+    color: #013d70;
+}
+
+.comprar:hover{
+    background: white;
+    color: red;
+    transition: .1s;
+}
+
+
+.produtos .bordas1{
+    margin-left: 200;
+}
+.comprar{
+    margin-left: -1rem;
+}
+
+
+
+.ext{
+    display: none;
+}
+
+
+@media only screen and (max-width:1000px) {
+    
+
+.comprar{
+    margin-left: 1rem;
+}
+
+.bordas1{
+    margin-left: 2%;
+}
+
+
+.produtos .produto:first-child{
+    
+    margin-left: -20%;
+}
+
+
+}
+
+
+
+
+.msg{
+    width: 25%;
+    border-radius: 20px;
+    line-height: 45px;
+    height: 3rem;
+    display: none;
+    animation: .5s prod linear;
+    transition: .5s;
+    color: aliceblue;
+}
+
+.logo{
+    animation: 2s logo ease infinite;
+}
+
+
+@keyframes logo {
+    5%{
+        transform: rotate(-30deg);
+    }
+
+    10%{
+        transform: scale3d(1.1, 1.3, 1.2);
+    }
+    30%{
+        transform: rotate(30deg);
+    } 
+    60%{
+        transform: scale(1.1);
+    }
+    90%{
+        transform: scale3d(1.2, 1.4, 1.1);
+    }
+}
